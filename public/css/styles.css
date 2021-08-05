@@ -1,17 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
-    background-color: #EAC926;
+    background-color: #ebebeb;
     font-family: 'Roboto', sans-serif;
 }
-#header-compra{
-    text-align: center;
+ /*HEADER*/
+header{
+    background-color: #EAC926;
+    padding-bottom: 10px;
 }
-
+header nav{
+    padding: 10px;
+}
+.logo{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.search-container{
+    margin-bottom: 10px;
+}
+header div.top-header{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    
+}
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
 .listas{
     /*list-style-type: none;*/
     padding: 0;
     text-decoration: none;
 }
-a{
+header ul li a{
     text-decoration: none;
     color: black;
 }
@@ -27,19 +56,48 @@ a{
     border-radius: 5px;
     
 }
+main{
+    width: 90%;
+    margin: auto;
+}
 
-.precios{
+article div.main-article{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 10px;
+    box-sizing:border-box;
+}
+section.banner img{
+    width: 100%;
+}
+main section article{
+    background-color: #fff;
+    border-radius: 25px;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: #ebebeb; */
+    margin-bottom: 10px;
+    padding: 10px;
+}
+main section article img{
+    width: 100%;
+}
+
+.price{
     font-size: 18px;
 }
-
-.descuentos{
+.discount,
+.description{
     font-size: 16px;
+    font-weight: normal;
 }
-
+h3,
+.description{
+    color: #666;
+}
 h4{
     font-size: 24px;
 }
-
 .pie{
     background-color: white;
 }
@@ -66,4 +124,47 @@ h4{
     color: #1259c3;
     margin: 5px;
     padding-top: 45px;
+}
+main section article i,
+.discount{
+    color: #39b54a;
+}
+main h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.description{
+    display: none;
+}
+header nav{
+    display: none;
+}
+.products article i{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #39b54a;
+    border-radius: 25px;
+    padding: 10px;
+    margin: auto;
+}
+@media (min-width: 361px) { 
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .description{
+        display: block;
+    }
+    header nav{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
+}
+@media (min-width: 769px) { 
+    
+    .description{
+        display: block;
+    }
+
 }
