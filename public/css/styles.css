@@ -11,19 +11,23 @@ body{
 header{
     background-color: #EAC926;
     padding: 20px;
+    
 }
 .logo{
     width: 33%;
     /* margin-bottom: 5px; */
+    display: inline-block;
 }
-
 .search-container{
     margin-bottom: 10px;
     width: 50%;
     border: dotted 4px red;
+    display: inline-block;
 }
 .top-header{
     width: 100%;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 .copy-header{
     text-align: center;
@@ -210,6 +214,7 @@ header nav{
     .top-header{
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     .copy-header{
         max-width: 200px;

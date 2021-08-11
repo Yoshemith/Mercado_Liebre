@@ -1,0 +1,58 @@
+.create-form{
+    padding: 20px 15px;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.control-form{
+    margin-bottom: 15px;
+    width: 100%;
+    /* border: solid 10px green; */
+}  
+
+.control-form label {
+    margin-bottom: 5px;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.control-form p label{
+    display: inline-block;
+    font-weight: normal;
+}
+
+.control-form p {
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.radios{
+    margin: auto;
+    text-align: center;
+    width:350px;
+    /* border: solid 10px blue; */
+}
+.radios label{
+    display: inline-block;
+    font-weight: normal;
+    margin: 0 15px;
+    box-sizing: border-box;
+}
+.control{
+    width: 100%;
+}
+
+.botones{
+    margin: auto;
+    text-align: center;
+    width:250px;
+    /* border: solid 10px blue; */
+}
+.botones button{
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+}

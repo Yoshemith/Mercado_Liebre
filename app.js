@@ -18,6 +18,14 @@ app.use(express.static('public'));
 app.get('/', (req, res) => {
     res.sendFile(path.resolve('./views/index.html'));
 });
+//Ruta /register
+app.get('/register', (req, res) => {
+    res.sendFile(path.resolve('./views/register.html'));
+});
+//Ruta /login
+app.get('/login', (req, res) => {
+    res.sendFile(path.resolve('./views/login.html'));
+});
 
 //Levanta el servidor de Express
 app.listen(3030,() => console.log('Server running at port 3030'));
