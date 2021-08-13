@@ -85,6 +85,7 @@ main section article{
     border-color: #ebebeb; */
     margin-bottom: 10px;
     padding: 10px;
+    transition: box-shadow 450ms;
 }
 main section article img{
     width: 100%;
@@ -113,10 +114,12 @@ h4{
 }
 .pie{
     background-color: white;
+    border: solid 5px blue;
 }
 .pie-cajas{
     padding-top: 0px;
     text-align: center;
+    border: solid 5px yellow;
 }
 .pie h4{
     font-size: 22px;
@@ -163,6 +166,7 @@ main section article i{
     position: absolute;
     right: 20px;
     top: -15px;
+    transition: transform 450ms;
 }
 /* .products article i{
     border-style: solid;
@@ -172,12 +176,22 @@ main section article i{
     padding: 10px;
     margin: auto;
 } */
+main section article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
 main h3{
     text-align: center;
     margin-bottom: 10px;
 }
 .description{
     display: none;
+    /* transition: display 950ms; */
+}
+main section article:hover .description{
+    display: block;
+}
+main section article:hover i{
+    transform: rotate(-90deg);   
 }
 header nav{
     display: none;
@@ -194,12 +208,10 @@ header nav{
         justify-content: space-between;
         /* align-items: flex-start; */
     }
-    main section article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-    .description{
+    
+    /* .description{
         display: block;
-    }
+    } */
     header nav{
         display: block;
     }
@@ -229,6 +241,13 @@ header nav{
     }
     .main-navbar li{
         margin: 0 5px;
+    }
+    .pie{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        /* align-items: flex-start; */
     }
 }
 @media (min-width: 1085px) {  

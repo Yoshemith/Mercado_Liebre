@@ -31,3 +31,6 @@
     border-radius: 5px;
     border: none;
 }
+.botones:hover button{
+    background-color: #0022AA;
+}
