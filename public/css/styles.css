@@ -232,7 +232,13 @@ header nav{
         justify-content: space-between;
         /* align-items: flex-start; */
     }
-    
+    .search-bar{
+        width: 100%;
+    }
+    .search-bar input{
+        height: 4vh;
+        padding-left: 10px;
+    }
     /* .description{
         display: block;
     } */
