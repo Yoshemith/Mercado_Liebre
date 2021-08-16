@@ -4,6 +4,9 @@
 .create-form{
     padding: 20px 15px;
 }
+.create-form input:focus{
+    border: #EAC926 1px solid;
+}
 
 h2{
     font-size: 20px;
@@ -71,10 +74,6 @@ h2{
 .botones button:hover{
  background-color: #0022AA; 
  color: white;  
-}
-
-.create-form input:focus{
-    border: #EAC926 1px solid;
 }
 
 @media (min-width: 361px) { 

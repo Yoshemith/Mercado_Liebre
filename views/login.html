@@ -17,6 +17,19 @@
             <div class="logo">
                 <img src="/img/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">
             </div>
+            <div class="search-container">
+                <form action="/" method="GET">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Buscar productos, marcas.." name="search">
+                    </div>
+                    <div class="search-button">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+            <div class="copy-header">
+                <p><i class="fas fa-hand-holding-usd"></i> Compra en cuotas y sin tarjeta de crédito</i> </p> 
+            </div>
         </div>
         <nav class="main-navbar">
             <ul class="left-navbar">
@@ -37,18 +50,17 @@
             </a>
         </button>
         
-    </header>
-    <form action="/register" method="post" class="create-form">
+    </header> 
+    
+    <form action="/" method="post" class="create-form">
         <div class="control-form">
             <h2>Ingresa a tu cuenta</h2>
         </div>
         <div class="control-form" >
-            <label for="usuario">Nombre de usuario</label>
-            <input type="text" name="usuario" id="usuario">
+            <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
         </div>
         <div class="control-form">
-            <label for="password">Contraseña</label>
-            <input type="password" name="password" id="password">
+            <input type="password" name="password" id="password" placeholder="Contraseña">
         </div>
         <div class="control-form">
             <div class="botones">
@@ -57,12 +69,11 @@
         </div>
     </form>
     <footer class="pie">
-        <br>
         <article>
             <div class="pie-cajas">
                 <i class="icon1 fas fa-credit-card"></i>
             <h4>Paga con tarjeta o en efectivo</h4>
-            <p>Con MercadoLiebreCash tienes cuotas <br> sin interéses con tarjeta o efectivo en puntos de pago. <br>¡Y siempre es seguro! </p>
+            <p>Con MercadoLiebreCash tienes cuotas sin<br> interéses cn tarjeta/efectivo en puntos de pago<br>¡Y siempre es seguro! </p>
             
             </div>
             </article>
@@ -80,9 +91,6 @@
                 <p>¿No te gusta? ¡Devuelvelo! En MercadoLiebre <br>no hay nada uq eno puedas hacer porque estás <br>siempre protegid@.</p>        
             </div>
         </article>
-        <br>
-        <p>Copyright  199-2019 MercadoLiebre S.R.L</p>
-        <br>
     </footer>
 </body>
 </html>

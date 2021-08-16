@@ -1,5 +1,8 @@
 .create-form{
-    padding: 20px 15px;
+    padding: 30px 15px;
+}
+.create-form input:focus{
+    border: #EAC926 1px solid;
 }
 .control-form{
     margin-bottom: 35px;
@@ -14,23 +17,41 @@
     font-weight: 600;
 }
 .control-form input {
-    width: 60%;
+    width: 70%;
+    height: 35px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
 }
 .botones{
     margin: auto;
     text-align: center;
-    width: 60%;
+    width: 70%;
     /* border: solid 10px blue; */
 }
 .botones button{
     display: inline-block;
-    width: 80%;
-    height: 25px;
-    color: white;
-    background-color: #0044AA;
-    border-radius: 5px;
-    border: none;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
 }
 .botones:hover button{
-    background-color: #0022AA;
+    color: white;
+    background-color: #0044AA;
+    border: none;
+}
+
+@media (min-width: 361px) { 
+    .create-form{
+        margin: auto;
+        background-color: #ebebeb;
+        border: solid 2px #fff;
+        border-radius: 10px;
+    }    
+}
+
+@media (min-width: 768px) { 
+    .create-form{
+        width: 50%;
+    }    
 }
