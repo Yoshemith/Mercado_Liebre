@@ -1,3 +1,6 @@
+.body{
+    background-color: white;
+}
 .create-form{
     padding: 20px 15px;
 }
@@ -29,6 +32,10 @@ h2{
     margin-bottom: 5px;
     padding-left: 10px;
 }
+.control-form input{
+    border-radius: 5px;
+    border: none;
+}
 .radios{
     margin: auto;
     text-align: center;
@@ -43,16 +50,43 @@ h2{
 }
 .control{
     width: 100%;
+    height: 30px;
 }
 
 .botones{
     margin: auto;
     text-align: center;
-    width:250px;
-    /* border: solid 10px blue; */
+    width:100%;
+    /* border: solid 2px blue; */
+    display: flex;
+    justify-content: space-evenly;
 }
 .botones button{
-    display: inline-block;
+    /* display: inline-block; */
     width: 100px;
     height: 25px;
+    border-radius: 5px;
+    border-width: 0.2px;
+}
+.botones button:hover{
+ background-color: #0022AA; 
+ color: white;  
+}
+
+.create-form input:focus{
+    border: #EAC926 1px solid;
+}
+
+@media (min-width: 361px) { 
+    .create-form{
+        margin: auto;
+        background-color: #ebebeb;
+        border: solid 2px #fff;
+        border-radius: 10px;
+    }    
+}
+@media (min-width: 768px) { 
+    .create-form{
+        width: 50%;
+    }    
 }

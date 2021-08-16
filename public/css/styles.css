@@ -328,6 +328,9 @@ header nav{
     .icon1{
         font-size: 36px;
     }
+    .icon1:hover{
+        color: #EAC926;
+    }
     .pie{
         display: flex;
         /* flex-direction: row; */

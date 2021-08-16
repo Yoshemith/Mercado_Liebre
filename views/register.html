@@ -17,6 +17,19 @@
             <div class="logo">
                 <img src="/img/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">
             </div>
+            <div class="search-container">
+                <form action="/" method="GET">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Buscar productos, marcas.." name="search">
+                    </div>
+                    <div class="search-button">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+            <div class="copy-header">
+                <p><i class="fas fa-hand-holding-usd"></i> Compra en cuotas y sin tarjeta de crédito</i> </p> 
+            </div>
         </div>
         <nav class="main-navbar">
             <ul class="left-navbar">
@@ -37,26 +50,26 @@
             </a>
         </button>
         
-    </header>
-    <form action="/register" method="post" class="create-form">
+    </header> 
+    <form action="/" method="post" class="create-form">
         <div class="control-form">
             <h2>Completa tus datos</h2>
         </div>
         <div class="control-form" >
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" class="control">
+            <input type="text" name="nombreApellido" id="nombreApellido" placeholder="Nombre y apellido" class="control">
         </div>
         <div class="control-form">
-            <label for="apellido">Apellido</label>
-            <input type="text" name="apellido" id="apellido" class="control">
+            <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Nombre de usuario" class="control">
+        </div>
+        <div class="control-form">
+            <input type="email" name="email" id="email" placeholder="E-mail" class="control">
         </div>
         <div class="control-form">
             <label for="fechaNac">Fecha de nacimiento</label>
             <input type="date" name="fechaNac" id="fechaNac" class="control">
         </div>
         <div class="control-form">
-            <label for="domicilio">Domicilio</label>
-            <input type="text" name="domicilio" id="domicilio" class="control">
+            <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio" class="control">
         </div>
         <div class="control-form">
             <label for="">Perfil de usuario</label>
