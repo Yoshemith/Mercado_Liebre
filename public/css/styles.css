@@ -14,7 +14,7 @@ header{
     
 }
 .logo{
-    width: 33%;
+    width: 33.3%;
     /* margin-bottom: 5px; */
     display: inline-block;
 }
@@ -22,10 +22,10 @@ header{
     /* margin-bottom: 10px;
     width: 50%;
     display: inline-block; */
-    border: dotted 4px red;
-    margin-left: 10px;
-    padding-top: 25px;
-    width: 40%;
+    /* border: dotted 4px red; */
+    padding-left: 5px;
+    width: 66.7%;
+    margin: auto;
 }
 .search-container form{
     display: flex;
@@ -37,24 +37,30 @@ header{
 }
 .search-button{
     margin-left: -18px;
+    margin-top: 6px;
 }
 .search-bar{
-    padding-left: 10px;
+    width: 100%;
 }
 .search-bar input{
     width: 100%;
-    height: 3vh;
+    height: 4.5vh;
     border-radius: 5px;
     border: solid 1px white;
 }
-
 .top-header{
-    width: 100%;
-    /* display: flex;
+    /*width: 100%;
+     display: flex;
     flex-wrap: wrap; */
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
 .copy-header{
     text-align: center;
+    padding: 10px;
+    margin: auto;
+    /* border: dotted 2px green; */
 }
 header .form .input{
     background-color: #FFF;
@@ -222,6 +228,9 @@ header nav{
 }
 
 @media (min-width: 361px) { 
+    .logo{
+        width: 30%;
+    }
     .products article{
         width: 49%;
     }
@@ -232,13 +241,19 @@ header nav{
         justify-content: space-between;
         /* align-items: flex-start; */
     }
-    .search-bar{
+    .search-bar input{
+        height: 5.5vh;
+    }
+    .search-button{
+        margin-top: 8px;
+    }
+     .search-bar{
         width: 100%;
     }
-    .search-bar input{
+    /*.search-bar input{
         height: 4vh;
         padding-left: 10px;
-    }
+    } */
     /* .description{
         display: block;
     } */
@@ -250,6 +265,9 @@ header nav{
     }
 }
 @media (min-width: 768px) {  
+    .logo{
+        width: 20%;
+    }
     .products article{
         width: 24%;
     }  
@@ -261,6 +279,16 @@ header nav{
     .copy-header{
         max-width: 200px;
         text-align: right;
+        
+    }
+    .search-bar input{
+        height: 6.5vh;
+    }
+    .search-button{
+        margin-top: 10px;
+    }
+    .search-container{
+        width: 33.3%;
     }
     .main-navbar{
         display: flex;
@@ -282,9 +310,9 @@ header nav{
         */
     }
 }
-@media (min-width: 1085px) {  
+@media (min-width: 1200px) {  
     .logo{
-        width: 250px;
+        width: 20%;
     }
     .top-header, .main-navbar{
         margin: auto;
@@ -292,7 +320,7 @@ header nav{
     }
     .copy-header{
         max-width: none;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 400;
     }
     .main-navbar{
