@@ -26,6 +26,9 @@ app.get('/register', (req, res) => {
 app.get('/login', (req, res) => {
     res.sendFile(path.resolve('./views/login.html'));
 });
-
+//validacion pass
+app.get('/validation.js', (req, res) => {
+    res.sendFile(path.resolve('./validation.js'));
+});
 //Levanta el servidor de Express
 app.listen(3030,() => console.log('Server running at port 3030'));

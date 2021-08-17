@@ -4,7 +4,7 @@
 .create-form{
     padding: 20px 15px;
 }
-.create-form input:focus{
+.control input:focus{
     border: #EAC926 1px solid;
 }
 
@@ -38,6 +38,30 @@ h2{
 .control-form input{
     border-radius: 5px;
     border: none;
+    background-color: white;
+    padding-left: 10px;
+}
+.control-form #perfil{
+    background-color: #ebebeb;
+}
+.message{
+    text-align: center;
+    padding-bottom: 10px;
+    /* display: none; */
+    /* border: dotted 1px blue; */
+}
+.message p{
+    width: 60%;
+    font-size: 16px;
+    background-color: #ebebeb;
+    color: #ebebeb;
+    margin: auto;
+    height: 22px;
+    border-radius: 5px;
+    align-content: center;
+    /* 
+    border: dotted 2px green; */
+    /* display: none; */
 }
 .radios{
     margin: auto;
@@ -53,7 +77,7 @@ h2{
 }
 .control{
     width: 100%;
-    height: 30px;
+    height: 40px;
 }
 
 .botones{
@@ -70,6 +94,8 @@ h2{
     height: 25px;
     border-radius: 5px;
     border-width: 0.2px;
+    color: white;
+    background-color: #0c80e6;
 }
 .botones button:hover{
  background-color: #0022AA; 
