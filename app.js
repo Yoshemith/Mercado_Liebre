@@ -30,5 +30,9 @@ app.get('/login', (req, res) => {
 app.get('/validation.js', (req, res) => {
     res.sendFile(path.resolve('./validation.js'));
 });
+
+//Deploy, Puerto default sino 3000 opcional
+let port = process.env.PORT || 3000;
+
 //Levanta el servidor de Express
-app.listen(3030,() => console.log('Server running at port 3030'));
+app.listen(port ,() => console.log('Server running at port 3030'));
