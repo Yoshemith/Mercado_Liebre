@@ -2,7 +2,7 @@
 
 Mercado Liebre clone web page for Web Development practice.
 
-This a Website was made using HTML, CSS, JS , NodeJs & Express.
+This Website was made using HTML, CSS, JS , NodeJs & Express.
 
 ## Deploy en Heroku
 You can see the result here:
