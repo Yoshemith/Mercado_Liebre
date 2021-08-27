@@ -1,7 +1,11 @@
 # FULL STACK Development project
-This a Website for HTML, CSS, JS Practices
 
-Developed with an ongoing DigitalHouse Course.
+Mercado Liebre clone web page for Web Development practice.
+
+This a Website was made using HTML, CSS, JS , NodeJs & Express.
 
 ## Deploy en Heroku
+You can see the result here:
 * [Mercado liebre](https://liebremarket.herokuapp.com/)
+
+> Developed with an ongoing DigitalHouse Course.
