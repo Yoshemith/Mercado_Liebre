@@ -8,4 +8,4 @@ This Website was made using HTML, CSS, JS , NodeJs & Express.
 You can see the result here:
 * [Mercado liebre](https://liebremarket.herokuapp.com/)
 
-> Developed with an ongoing DigitalHouse Course.
+> Developed during a DigitalHouse Course.
